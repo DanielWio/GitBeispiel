@@ -14,5 +14,11 @@ public class main
         {
             summe = summe+i;
         }
+        
+        int multi = 1;
+        for(int i = 2; i <= 10; i++)
+        {
+            multi = multi*i;
+        }
     }
 }

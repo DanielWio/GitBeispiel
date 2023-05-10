@@ -1,0 +1,44 @@
+[33mcommit d4db9b491f4d5625aa8e59051d775e05fa969fac[m[33m ([m[1;36mHEAD -> [m[1;32mfeature1[m[33m, [m[1;32mmaster[m[33m)[m
+Author: Wiora <nkp-93h-u1@fh-h.de>
+Date:   Wed May 10 16:53:56 2023 +0200
+
+    Die Summenfunktion wurde implementiert.
+
+[1mdiff --git a/main.java b/main.java[m
+[1mindex bb45348..64f8267 100644[m
+[1m--- a/main.java[m
+[1m+++ b/main.java[m
+[36m@@ -7,27 +7,12 @@[m
+  */[m
+ public class main[m
+ {[m
+[31m-    // Instanzvariablen - ersetzen Sie das folgende Beispiel mit Ihren Variablen[m
+[31m-    private int x;[m
+[31m-[m
+[31m-    /**[m
+[31m-     * Konstruktor für Objekte der Klasse main[m
+[31m-     */[m
+[31m-    public main()[m
+[31m-    {[m
+[31m-        // Instanzvariable initialisieren[m
+[31m-        x = 0;[m
+[31m-    }[m
+[31m-[m
+[31m-    /**[m
+[31m-     * Ein Beispiel einer Methode - ersetzen Sie diesen Kommentar mit Ihrem eigenen[m
+[31m-     * [m
+[31m-     * @param  y    ein Beispielparameter für eine Methode[m
+[31m-     * @return        die Summe aus x und y[m
+[31m-     */[m
+[31m-    public int beispielMethode(int y)[m
+[32m+[m[32m    public static void main(String args[])[m
+     {[m
+[31m-        // tragen Sie hier den Code ein[m
+[31m-        return x + y;[m
+[32m+[m[32m        int summe = 0;[m
+[32m+[m[32m        for(int i = 0; i <= 10; i++)[m
+[32m+[m[32m        {[m
+[32m+[m[32m            summe = summe+i;[m
+[32m+[m[32m        }[m
+     }[m
+ }[m
