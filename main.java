@@ -12,13 +12,13 @@ public class main
         int summe = 0;
         for(int i = 0; i <= 10; i++)
         {
-            summe = summe+i;
+            summe += i;
         }
         
         int multi = 1;
         for(int i = 2; i <= 10; i++)
         {
-            multi = multi*i;
+            multi *= i;
         }
     }
 }
