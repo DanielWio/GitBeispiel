@@ -20,5 +20,7 @@ public class main
         {
             multi = multi*i;
         }
+        
+        System.out.println("Summe: " + summe + "\n" + "Multiplikation: " + multi);
     }
 }
