@@ -9,15 +9,15 @@ public class main
 {
     public static void main(String args[])
     {
-        int ob = 20;
+        int obereGrenze = 20;
         int summe = 0;
-        for(int i = 0; i <= ob; i++)
+        for(int i = 0; i <= obereGrenze; i++)
         {
             summe += i;
         }
         
         int multi = 1;
-        for(int i = 2; i <= ob; i++)
+        for(int i = 2; i <= obereGrenze; i++)
         {
             multi *= i;
         }
