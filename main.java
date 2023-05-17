@@ -9,7 +9,7 @@ public class main
 {
     public static void main(String args[])
     {
-        int obereGrenze = 20;
+        int obereGrenze = 50;
         int summe = 0;
         for(int i = 0; i <= obereGrenze; i++)
         {
