@@ -1,3 +1,4 @@
+import java.math.*;
 
 /**
  * Beschreiben Sie hier die Klasse main.
@@ -16,10 +17,10 @@ public class main
             summe += i;
         }
         
-        int multi = 1;
+        BigInteger multi = new BigInteger("1");
         for(int i = 2; i <= obereGrenze; i++)
         {
-            multi *= i;
+            multi = multi.multiply(BigInteger.valueOf(i));
         }
         
         System.out.println("Summe: " + summe + "\n" + "Multiplikation: " + multi);
